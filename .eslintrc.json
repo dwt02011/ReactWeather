@@ -27,8 +27,7 @@
             "unix"
         ],
         "no-unused-vars": [
-            "warn",
-            ""
+            "warn"
         ],
         "quotes": [
             "warn",
@@ -36,10 +35,6 @@
         ],
         "react/prop-types": [
             0
-        ],
-        "semi": [
-            "warn",
-            "always"
         ]
     },
     "parserOptions": {
