@@ -4,7 +4,7 @@ var {Link, IndexLink} = require('react-router');
 var Nav = React.createClass({
 	onSearch: e => {
 		e.preventDefault();
-		alert("Not yet wired up!");
+		alert('Not yet wired up!');
 	},
 	render: function () {
 		return (
@@ -13,13 +13,13 @@ var Nav = React.createClass({
 				<ul className="menu">
 					<li className="menu-text">React Weather App</li>
 					<li>
-						<IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: "bold"}}>Get Weather</IndexLink>	
+						<IndexLink to="/" activeClassName="active" activeStyle={{fontWeight:'bold'}}>Get Weather</IndexLink>	
 					</li>
 					<li>
-						<Link to="/about" activeClassName="active" activeStyle={{fontWeight: "bold"}}>About</Link>		
+						<Link to="/about" activeClassName="active" activeStyle={{fontWeight:'bold'}}>About</Link>		
 					</li>
 					<li>
-						<Link to="/examples" activeClassName="active" activeStyle={{fontWeight: "bold"}}>Examples</Link>
+						<Link to="/examples" activeClassName="active" activeStyle={{fontWeight:'bold'}}>Examples</Link>
 					</li>
 				</ul>
 			</div>
